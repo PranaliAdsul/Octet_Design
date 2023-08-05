@@ -10,7 +10,6 @@ const jobDataSchema = new mongoose.Schema(
     },
     posted: {
       type: String,
-      required: true,
     },
     status: {
       type: String,
@@ -36,4 +35,4 @@ const jobDataSchema = new mongoose.Schema(
 
 const JobData = mongoose.model("JobData", jobDataSchema);
 
-module.exports = JobData; 
+module.exports = JobData;
