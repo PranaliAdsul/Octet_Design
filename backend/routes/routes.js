@@ -7,6 +7,6 @@ const jobdataController = require("../controllers/controller.js");
 router.post("/", jobdataController.create);
 
 // Retrieve all JobData
-router.get("/", jobdataController.findAll);
+router.get("/jobs", jobdataController.findAll);
 
 module.exports = router;
